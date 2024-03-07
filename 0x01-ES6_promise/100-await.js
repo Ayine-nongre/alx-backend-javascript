@@ -9,5 +9,6 @@ export default async function asyncUploadUser() {
     .then((res) => res)
     .catch(() => null);
 
+  if (photo === null || user === null) return { photo: null, user: null };
   return { photo, user };
 }

@@ -1,6 +1,4 @@
-const sliceWith = (mainString, subString) => {
-  return mainString.slice(subString.length);
-};
+const sliceWith = (mainString, subString) => mainString.slice(subString.length);
 
 function cleanSet(set, startString) {
   let res = '';
